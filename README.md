@@ -1,0 +1,1 @@
+Esse repositório tem um contador de intervalos simples, ele solicita ao usuário para informar o número inicial, o número final e o intervalo desejado e apresenta em seguida a sequência conforme solicitada.
