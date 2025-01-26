@@ -4,7 +4,7 @@ function contar() {
   let passo = document.getElementById("txtp");
   let res = document.getElementById("resposta");
 
-  if (
+    if (
     inicio.value.length == 0 ||
     fim.value.length == 0 ||
     passo.value.length == 0
@@ -33,3 +33,6 @@ function contar() {
     res.innerHTML += `\u{1F3c1}`;
   }
 }
+
+const yearElement = document.getElementById('currentYear');
+  yearElement.textContent = new Date().getFullYear();
